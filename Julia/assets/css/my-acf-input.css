@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:500,700,900&display=swap');
+body {
+    background: #dcffcc;
+	font-family: 'Alegreya', serif;
+	font-weight: 500;
+
+}
+ #adminmenu,
+ #adminmenuback,
+ #adminmenuwrap {
+     background: #0c093c;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+#adminmenu .wp-has-current-submenu .wp-submenu a,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu a,
+#adminmenu .wp-submenu a,
+#adminmenu a.wp-has-current-submenu:focus+.wp-submenu a,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu a {
+    color: #fff;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    background: #5f6769;
+}
+#wpadminbar{
+	color: #fff;
+    background: #f0134d;
+}
+h2.hndle.ui-sortable-handle span {
+    font-size: 22px;
+}
+ .acf-fields>.acf-tab-wrap .acf-tab-group li a{
+   background: #555!important;
+   color: white !important;
+   height: 25px !important;
+   border-radius: 5px 5px 0px 0px;
+
+ }
+#poststuff .stuffbox>h3, #poststuff h2, #poststuff h3.hndle{
+
+    font-size: 25px;
+    padding: 5px 12px;
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+    color: white;
+    background:rgba(41,58,74,0.95);
+    /* background:#3c3d47; */
+ }
+ wrap:first-child .acf-tab-group {
+   border-top: none;
+   height: 50px !important;
+}
+ .acf-tab-wrap.-left .acf-tab-group li a {
+    height: 33px;
+    border: 1px solid #ededed;
+    font-size: 15px !important;
+    line-height: 18px;
+    text-transform: uppercase !important;
+    color: white !important;
+    padding: 10px;
+    margin: 0;
+    font-weight: normal;
+    border-width: 1px 0;
+    border-radius: 0;
+    background: #494ca2;
+    text-align: center;}
+    .acf-tab-wrap.-left .acf-tab-group li.active a {
+      border-color: #DFDFDF;
+      color:black !important;
+      margin-right: -1px;
+      background:yellow !important;
+  }
+        
+.acf-tab-wrap.-left .acf-tab-group {
+            position: absolute;
+            left: 0;
+            width: 20%;
+            border: 0 none;
+            padding: 0 !important;
+            margin: 1px 0 0;
+            background:#5f6769;
+        }
+        .acf-fields>.acf-tab-wrap .acf-tab-group {
+         position: relative;
+         z-index: 1;
+         margin-bottom: -1px;
+         border-top: #DFDFDF solid 1px;
+         border-bottom: #DFDFDF solid 1px;
+         height: 38px !important;
+         background: #5f6769 !important;
+     }
+     .acf-fields>.acf-tab-wrap .acf-tab-group li.active a {
+      background: yellow !important;
+      color: black !important;
+  }
+  .wp-core-ui .wp-ui-primary {
+    color: #fff;
+    background-color:yellow;
+  }
